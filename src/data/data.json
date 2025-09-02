@@ -1,0 +1,162 @@
+{
+  "Header": {
+    "title": "Reconquiste Seu Futuro",
+    "paragraph": "Caminhe conosco em direção a uma vida livre e plena"
+  },
+  "About": {
+    "paragraph": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibhlorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Ver",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Avaliação e Diagnóstico",
+      "text": "Cada paciente passa por uma análise detalhada para definir o tratamento mais adequado às suas necessidades.",
+      "image":"img/services/service1.png"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Desintoxicação Supervisionada",
+      "text": "Processo seguro de desintoxicação, acompanhado por equipe médica e psicológica.",
+      "image":"img/services/service2.png"
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Internação e Acolhimento Humanizado",
+      "text": "Ambiente seguro, estruturado e acolhedor para recuperação intensiva.",
+      "image":"img/services/service3.png"
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Terapia Psicológica e Grupos de Apoio",
+      "text": "Atendimentos individuais e em grupo para fortalecer a saúde emocional e prevenir recaídas.",
+      "image":"img/services/service4.png"
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Acompanhamento Familiar",
+      "text": "Orientação e suporte contínuo às famílias, ajudando-as a lidar com o processo de recuperação.",
+      "image":"img/services/service5.png"
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Reinserção Social e Pós-Tratamento",
+      "text": "Programas de acompanhamento após a alta, visando a adaptação à vida cotidiana com equilíbrio e autonomia.",
+      "image":"img/services/service6.png"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Faq": [
+  {
+    "question": "Como funciona a internação involuntária?",
+    "answer":"A internação involuntária ocorre nos casos de risco iminente à vida e sempre com respeito ao indivíduo e familiares."
+  },
+  {
+    "question": "Vocês atendem em todo o Brasil?",
+    "answer":
+      "Sim, nossa equipe realiza remoções e atendimentos em todo território nacional."
+  },
+  {
+    "question": "O atendimento online é sigiloso?",
+    "answer":
+      "Sim, todas as sessões online são realizadas com segurança, privacidade e sigilo absoluto."
+  }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px) {
+  #about,
+  #services,
+  #testimonials,
+  #faq,
+  #contact,
+  #footer {
+    width: 100%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
