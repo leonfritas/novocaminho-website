@@ -4,7 +4,7 @@ import { Header } from "./components/header";
 import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
+import { Treatment } from "./components/treatment";
 import { Faq } from "./components/Faq";
 import { Contact } from "./components/contact";
 import FloatingWhatsAppButton from "./components/floating-wpp-button";
@@ -31,7 +31,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
+      <Treatment data={landingPageData.Treatment} />
       <Faq data={landingPageData.Faq} />
       <Contact data={landingPageData.Contact} />
       {/* <FloatingWhatsAppButton /> */}

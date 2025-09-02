@@ -103,37 +103,23 @@
       "image":"img/services/service6.png"
     }
   ],
-  "Testimonials": [
+  "Treatment": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/treatment/01.jpg",
+      "text": "É o pilar central da maioria dos tratamentos. Envolve sessões com um psicólogo ou terapeuta para identificar os gatilhos do vício, modificar padrões de pensamento distorcidos e desenvolver estratégias para mudar o comportamento.",
+      "name": "Psicoterapia Especializada"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/treatment/02.jpg",
+      "text": "Utiliza medicamentos prescritos por um médico psiquiatra para auxiliar no controle dos sintomas físicos e psicológicos do vício.",
+      "name": "Tratamento Farmacológico"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/treatment/03.jpg",
+      "text": "São reuniões, presenciais ou online, onde pessoas que compartilham o mesmo problema se encontram para oferecer suporte emocional, compartilhar experiências e estratégias de recuperação, baseadas em um programa estruturado.",
+      "name": "Grupos de Apoio Mútuo"
     }
+    
   ],
   "Faq": [
   {
