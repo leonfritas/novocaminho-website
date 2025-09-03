@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  /* background: url(../img/intro-bg.jpg) center center no-repeat; */
+  background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -241,6 +241,15 @@ a:focus,
   font-weight: 500;
 }
 
+
+
+header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 200px;
+  text-align: center;  
+
+}
+
 @media (max-width: 640px) {
   
   .intro h1 {
@@ -251,12 +260,6 @@ a:focus,
     line-height: 26px;
     margin-bottom: 40px;
   }
-}
-
-header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;  
 }
 
 /* About Section */
@@ -727,6 +730,7 @@ iframe {
   iframe {
     width: 100% !important;
     height: 300px !important;
+    margin: 0;
   }
 }
 

@@ -39,6 +39,64 @@ export const Contact = (props) => {
       <div id="contact">
         <div className="container">
           <div className="col-md-8">
+            
+            <div className="section-title">
+
+              <h2>Entre em contato</h2>
+              <p>
+                Preencha o formulário abaixo para nos enviar uma mensagem. 
+                Entraremos em contato o mais breve possível para oferecer apoio e orientação.
+              </p>
+            </div>
+            <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      className="form-control"
+                      placeholder="Nome"
+                      required
+                      onChange={handleChange}
+                    />
+                    <p className="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      className="form-control"
+                      placeholder="E-mail"
+                      required
+                      onChange={handleChange}
+                    />
+                    <p className="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div className="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  className="form-control"
+                  rows="4"
+                  placeholder="Mensagem
+                  "
+                  required
+                  onChange={handleChange}
+                ></textarea>
+                <p className="help-block text-danger"></p>
+              </div>
+              <div id="success"></div>
+              <button type="submit" className="btn btn-custom btn-lg">
+                Enviar Mensagem
+              </button>
+            </form>
             <div className="section-title">
               <h2>Nosso Endereço</h2>
             </div>
@@ -85,63 +143,6 @@ export const Contact = (props) => {
               </div>
               
             </div>
-            <div className="section-title">
-
-                <h2>Entre em contato</h2>
-                <p>
-                  Preencha o formulário abaixo para nos enviar uma mensagem. 
-                  Entraremos em contato o mais breve possível para oferecer apoio e orientação.
-                </p>
-              </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Nome"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="E-mail"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Mensagem
-                    "
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Enviar Mensagem
-                </button>
-              </form>
           </div>
           
           <div className="col-md-12">
