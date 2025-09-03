@@ -1,4 +1,4 @@
-import React from "react";
+import { Image } from "./image";
 
 export const Treatment = (props) => {
   return (
@@ -12,8 +12,12 @@ export const Treatment = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4 col-sm-6">
                   <div className="treatment-card">
-                    <div className="treatment-image">
-                      <img src={d.img} alt={d.name} />
+                    <div className="treatment-image">                      
+                    <Image
+                      title={d.name}
+                      largeImage={d.img}
+                      smallImage={d.img}
+                    />
                     </div>
                     <div className="treatment-content">
                       <h3>{d.name}</h3>
