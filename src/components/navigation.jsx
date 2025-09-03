@@ -32,22 +32,35 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="#services" 
+                className="page-scroll"     
+                data-toggle="collapse"
+                data-target=".navbar-collapse.in">
                 Serviços
               </a>
             </li>
             <li>
-              <a href="#treatment" className="page-scroll">
+              <a href="#treatment" 
+                className="page-scroll"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.in">
                 Tratamentos
               </a>
             </li>
             <li>
-              <a href="#faq" className="page-scroll">
+              <a href="#faq" 
+                className="page-scroll"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.in">
                 FAQ
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="#contact" 
+                className="page-scroll"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.in"
+              >
                 Contato
               </a>
             </li>
