@@ -4,18 +4,18 @@
     "paragraph": "Caminhe conosco em direção a uma vida livre e plena"
   },
   "About": {
-    "paragraph": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibhlorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.",
+    "paragraph": "Somos uma equipe dedicada a oferecer apoio, orientação e acompanhamento a pessoas que enfrentam a dependência química e seus familiares. Nosso compromisso é proporcionar um ambiente de acolhimento, respeito e confiança, onde cada história é valorizada e cada conquista celebrada. Acreditamos que a recuperação é possível e caminhamos lado a lado com nossos pacientes na busca por uma vida mais saudável, equilibrada e plena.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Acolhimento humano e respeitoso",
+      "Equipe especializada",
+      "Atendimento personalizado",
+      "Apoio à família"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Ambiente seguro e estruturado",
+      "Metodologia comprovada",
+      "Respeito à individualidade",
+      "Compromisso com a vida"
     ]
   },
   "Gallery": [
@@ -70,52 +70,52 @@
       "icon": "fa fa-wordpress",
       "name": "Avaliação e Diagnóstico",
       "text": "Cada paciente passa por uma análise detalhada para definir o tratamento mais adequado às suas necessidades.",
-      "image":"img/services/service1.png"
+      "image":"img/services/service1.jpg"
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "Desintoxicação Supervisionada",
       "text": "Processo seguro de desintoxicação, acompanhado por equipe médica e psicológica.",
-      "image":"img/services/service2.png"
+      "image":"img/services/service2.jpg"
     },
     {
       "icon": "fa fa-cloud-download",
       "name": "Internação e Acolhimento Humanizado",
       "text": "Ambiente seguro, estruturado e acolhedor para recuperação intensiva.",
-      "image":"img/services/service3.png"
+      "image":"img/services/service3.jpg"
     },
     {
       "icon": "fa fa-language",
       "name": "Terapia Psicológica e Grupos de Apoio",
       "text": "Atendimentos individuais e em grupo para fortalecer a saúde emocional e prevenir recaídas.",
-      "image":"img/services/service4.png"
+      "image":"img/services/service4.jpg"
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Acompanhamento Familiar",
       "text": "Orientação e suporte contínuo às famílias, ajudando-as a lidar com o processo de recuperação.",
-      "image":"img/services/service5.png"
+      "image":"img/services/service5.jpg"
     },
     {
       "icon": "fa fa-plane",
       "name": "Reinserção Social e Pós-Tratamento",
       "text": "Programas de acompanhamento após a alta, visando a adaptação à vida cotidiana com equilíbrio e autonomia.",
-      "image":"img/services/service6.png"
+      "image":"img/services/service6.jpg"
     }
   ],
   "Treatment": [
     {
-      "img": "img/treatment/01.jpg",
+      "img": "img/treatment/tratamento1.jpg",
       "text": "É o pilar central da maioria dos tratamentos. Envolve sessões com um psicólogo ou terapeuta para identificar os gatilhos do vício, modificar padrões de pensamento distorcidos e desenvolver estratégias para mudar o comportamento.",
       "name": "Psicoterapia Especializada"
     },
     {
-      "img": "img/treatment/02.jpg",
+      "img": "img/treatment/tratamento2.jpg",
       "text": "Utiliza medicamentos prescritos por um médico psiquiatra para auxiliar no controle dos sintomas físicos e psicológicos do vício.",
       "name": "Tratamento Farmacológico"
     },
     {
-      "img": "img/treatment/03.jpg",
+      "img": "img/treatment/tratamento3.jpg",
       "text": "São reuniões, presenciais ou online, onde pessoas que compartilham o mesmo problema se encontram para oferecer suporte emocional, compartilhar experiências e estratégias de recuperação, baseadas em um programa estruturado.",
       "name": "Grupos de Apoio Mútuo"
     }
