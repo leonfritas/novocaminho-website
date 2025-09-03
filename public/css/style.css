@@ -693,6 +693,36 @@ label {
   color: #608dfd;
   background: #fff;
 }
+
+.row-contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form{
+  width: 100%;
+}
+
+.col-md-8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .row-contact {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  iframe {
+    width: 100% !important;
+    height: 300px !important;
+  }
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
