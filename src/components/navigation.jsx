@@ -27,7 +27,10 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="#about" 
+                className="page-scroll"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.in">
                 Sobre
               </a>
             </li>
@@ -37,6 +40,14 @@ export const Navigation = (props) => {
                 data-toggle="collapse"
                 data-target=".navbar-collapse.in">
                 Serviços
+              </a>
+            </li>
+            <li>
+              <a href="#portfolio" 
+                className="page-scroll"     
+                data-toggle="collapse"
+                data-target=".navbar-collapse.in">
+                Galeria
               </a>
             </li>
             <li>

@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important; */
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -406,7 +406,7 @@ header .intro-text {
 
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 80px 0 10px 0;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -453,6 +453,16 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+@media (max-width: 767px) {
+  .portfolio-card{
+    margin-bottom: 40px;
+  }
+  .portfolio-card p{
+    margin-top: 10px;
+  }  
+}
+
+
 /* Treatment Section */
 #treatment {
   padding: 80px 0;
@@ -480,6 +490,8 @@ header .intro-text {
   height: 3px;
   background: #6c5ce7;
 }
+
+/* Treatment */
 
 .treatment-card {
   background: #fff;
