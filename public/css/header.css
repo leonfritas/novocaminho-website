@@ -1,0 +1,63 @@
+/* Header Section */
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 135vh; /* ocupa altura da tela */
+  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  background-size: contain; /* mostra a imagem inteira */
+}
+
+
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro h1 {
+  font-family: "Raleway", sans-serif;
+  color: #242424;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.intro h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+.intro p {
+  color: #2c2c2c;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-weight: 500;
+}
+
+header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 200px;
+  text-align: center;  
+
+}
+
+.linklogo {
+  display: flex;
+  align-items: center;   /* centraliza verticalmente */
+  height: 60px;          /* mesma altura da navbar (ajuste se precisar) */
+  padding: 0;
+}
+
+.linklogo img {
+  height: 100%;          /* ocupa altura total da área da logo */
+  width: auto;           /* mantém proporção */
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;   /* força centralização vertical */
+
+}

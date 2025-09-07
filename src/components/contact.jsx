@@ -174,7 +174,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <h3          
-            className="text-center mt-12 font-normal !text-gray-700"
+            className="footer-company"
           >          
             <a href="https://www.instagram.com/noodlesoftware/" target="_blank" rel="noopener noreferrer">
             &copy; {CURRENT_YEAR} Desenvolvido por Noodle Software Solutions.

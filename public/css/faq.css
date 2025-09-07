@@ -1,0 +1,22 @@
+/* faq Section */
+#faq {
+  padding: 100px 0;
+}
+#faq h4 {
+  margin: 5px 0;
+}
+#faq .faq-img {
+  width: 240px;
+}
+#faq .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#faq .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
+
+.faqbutton {
+  cursor: pointer;
+}
