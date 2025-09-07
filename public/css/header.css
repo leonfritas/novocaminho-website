@@ -2,14 +2,17 @@
 .intro {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  min-height: 135vh; /* ocupa altura da tela */
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  min-height: 135vh; 
+  background: url(../img/intro-bg.jpg) center top no-repeat;
   background-color: #e5e5e5;
-  background-size: contain; /* mostra a imagem inteira */
+  background-size: cover;
 }
 
+header {
+  padding-top: 60px; 
+}
 
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -60,4 +63,17 @@ header .intro-text {
   display: flex;
   align-items: center;   /* força centralização vertical */
 
+}
+
+@media (max-width: 640px) {
+  .intro {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* garante que o conteúdo fique no topo */
+  width: 100%;
+  min-height: 135vh; /* ocupa altura da tela */
+  background: url(../img/intro-bg-responsivo-bg.jpg) center top no-repeat; /* fixa o topo da imagem */
+  background-color: #e5e5e5;
+  background-size: cover; /* cobre todo o container, cortando principalmente embaixo */
+}
 }
