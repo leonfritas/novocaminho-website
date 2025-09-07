@@ -7,7 +7,7 @@ import { Gallery } from "./components/gallery";
 import { Treatment } from "./components/treatment";
 import { Faq } from "./components/Faq";
 import { Contact } from "./components/contact";
-import FloatingWhatsAppButton from "./components/floating-wpp-button";
+import { WhatsAppButton  }from "./components/floating-wpp-button";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -34,7 +34,7 @@ const App = () => {
       <Treatment data={landingPageData.Treatment} />
       <Faq data={landingPageData.Faq} />
       <Contact data={landingPageData.Contact} />
-      {/* <FloatingWhatsAppButton /> */}
+      <WhatsAppButton />
       
     </div>
   );
