@@ -252,27 +252,35 @@ header .intro-text {
 }
 
 @media (max-width: 640px) {
-  
-  .intro h1 {
-    font-size: 36px;
-  }
-  .intro p {
-    font-size: 18px;
-    line-height: 26px;
-    margin-bottom: 40px;
-  }
-
-  .intro {
-    background: url(../img/intro-bg-responsivo.jpg) center center no-repeat;
-  }
-
   .navbar-header {
-  display: flex;
-  align-items: center;   /* força centralização vertical */
-  justify-content: space-between;
-  
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;     /* ocupa a barra toda */
+    float: none !important;     /* remove float left */
+    margin: 0 !important;
+    padding: 0 15px !important; /* afastamento da borda */
+  }
+
+  .navbar-toggle {
+    float: none !important;     /* remove float right */
+    margin: 0 !important;
+  }
+
+  .linklogo {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .linklogo img {
+    max-height: 50px;
+    width: auto;
+    display: block;
   }
 }
+
 .linklogo {
   display: flex;
   align-items: center;   /* centraliza verticalmente */
