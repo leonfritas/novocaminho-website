@@ -160,7 +160,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
                       <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>

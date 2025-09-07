@@ -43,7 +43,7 @@ header {
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
-  text-align: center;  
+  text-align: center;    
 
 }
 
@@ -65,15 +65,13 @@ header .intro-text {
 
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) {  
   .intro {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* garante que o conteúdo fique no topo */
-  width: 100%;
-  min-height: 135vh; /* ocupa altura da tela */
-  background: url(../img/intro-bg-responsivo-bg.jpg) center top no-repeat; /* fixa o topo da imagem */
-  background-color: #e5e5e5;
-  background-size: cover; /* cobre todo o container, cortando principalmente embaixo */
-}
+    min-height: 100vh; /* ocupa só a altura da tela */
+    background: url(../img/intro-bg.jpg) center top no-repeat;
+    background-size: cover;    
+  }
+
+
+
 }
