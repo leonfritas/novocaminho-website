@@ -54,24 +54,6 @@
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg",
       "text": "Nosso centro de tratamento oferece um ambiente acolhedor e seguro, projetado para promover a recuperação e o bem-estar dos nossos pacientes. Com instalações modernas e confortáveis, proporcionamos um espaço onde cada indivíduo pode se sentir em casa enquanto trabalha em sua jornada de recuperação."
-    },
-    {
-      "title": "Ver",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg",
-      "text": "Nosso centro de tratamento oferece um ambiente acolhedor e seguro, projetado para promover a recuperação e o bem-estar dos nossos pacientes. Com instalações modernas e confortáveis,"
-    },
-    {
-      "title": "Ver",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg",
-      "text": "Nosso centro de tratamento oferece um ambiente acolhedor e seguro, projetado para promover a recuperação e o bem-estar dos nossos pacientes. Com instalações modernas e confortáveis, proporcionamos um espaço onde cada indivíduo pode se sentir em"
-    },
-    {
-      "title": "Ver",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg",
-      "text": "Nosso centro de tratamento oferece um ambiente acolhedorNosso centro de tratamento oferece um ambiente acolhedoNosso centro de tratamento oferece um ambiente acolhedoNosso centro de tratamento oferece um ambiente acolhedoNosso centro de tratamento oferece um ambiente acolhedoNosso centro de tratamento oferece um ambiente acolhedoNosso centro de tratamento oferece um ambiente acolhedoNosso centro de tratamento oferece um ambiente acolhedoNosso centro de tratamento oferece um ambiente acolhedo "
     }
   ],
   "Services": [
@@ -114,6 +96,21 @@
   ],
   "Treatment": [
     {
+      "img": "img/treatment/tratamento1.jpg",
+      "text": "É o pilar central da maioria dos tratamentos. Envolve sessões com um psicólogo ou terapeuta para identificar os gatilhos do vício, modificar padrões de pensamento distorcidos e desenvolver estratégias para mudar o comportamento.",
+      "name": "Psicoterapia Especializada"
+    },
+    {
+      "img": "img/treatment/tratamento2.jpg",
+      "text": "Utiliza medicamentos prescritos por um médico psiquiatra para auxiliar no controle dos sintomas físicos e psicológicos do vício.",
+      "name": "Tratamento Farmacológico"
+    },
+    {
+      "img": "img/treatment/tratamento3.jpg",
+      "text": "São reuniões, presenciais ou online, onde pessoas que compartilham o mesmo problema se encontram para oferecer suporte emocional, compartilhar experiências e estratégias de recuperação, baseadas em um programa estruturado.",
+      "name": "Grupos de Apoio Mútuo"
+    },
+        {
       "img": "img/treatment/tratamento1.jpg",
       "text": "É o pilar central da maioria dos tratamentos. Envolve sessões com um psicólogo ou terapeuta para identificar os gatilhos do vício, modificar padrões de pensamento distorcidos e desenvolver estratégias para mudar o comportamento.",
       "name": "Psicoterapia Especializada"

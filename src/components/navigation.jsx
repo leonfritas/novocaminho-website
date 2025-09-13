@@ -6,7 +6,8 @@ export const Navigation = (props) => {
         <div className="navbar-header ">
           <a className="navbar-brand page-scroll linklogo" href="#page-top">
             <img              
-              src="img/logo.png"                
+              src="img/logo.png"  
+              alt="logo"              
             />
           </a>{" "}
           <button
@@ -46,19 +47,19 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#portfolio" 
-                className="page-scroll"     
-                data-toggle="collapse"
-                data-target=".navbar-collapse.in">
-                Galeria
-              </a>
-            </li>
-            <li>
               <a href="#treatment" 
                 className="page-scroll"
                 data-toggle="collapse"
                 data-target=".navbar-collapse.in">
                 Tratamentos
+              </a>
+            </li>            
+            <li>
+              <a href="#portfolio" 
+                className="page-scroll"     
+                data-toggle="collapse"
+                data-target=".navbar-collapse.in">
+                Galeria
               </a>
             </li>
             <li>

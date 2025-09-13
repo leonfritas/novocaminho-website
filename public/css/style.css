@@ -286,7 +286,4 @@ a:focus,
     display: block;
   }
 
-  .intro{
-    background-image: url('../img/intro-bg-responsivo.jpg');
-  }
 }

@@ -30,8 +30,8 @@ const App = () => {
       <Header data={landingPageData.Header} />      
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
       <Treatment data={landingPageData.Treatment} />
+      <Gallery data={landingPageData.Gallery} />
       <Faq data={landingPageData.Faq} />
       <Contact data={landingPageData.Contact} />
       <WhatsAppButton />

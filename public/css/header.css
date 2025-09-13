@@ -5,8 +5,8 @@
   align-items: flex-start;
   width: 100%;
   min-height: 135vh; 
-  background: url(../img/intro-bg.jpg) center top no-repeat;
-  background-color: #e5e5e5;
+  /* background: url(../img/intro-bg.jpg) center top no-repeat; */
+  /* background-color: #e5e5e5; */
   background-size: cover;
 }
 
@@ -62,16 +62,18 @@ header .intro-text {
 .navbar-header {
   display: flex;
   align-items: center;   /* força centralização vertical */
+}
 
+.banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Mantém a proporção da imagem */
 }
 
 @media (max-width: 640px) {  
   .intro {
     min-height: 100vh; /* ocupa só a altura da tela */
-    background: url(../img/intro-bg.jpg) center top no-repeat;
+    padding-top: 30px;
     background-size: cover;    
   }
-
-
-
 }

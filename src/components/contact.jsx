@@ -111,7 +111,8 @@ export const Contact = (props) => {
                   style={{border:0, borderRadius: "20px"}} 
                   allowFullScreen="" 
                   loading="lazy" 
-                  referrerPolicy="no-referrer-when-downgrade">
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="mapa">
                 </iframe>
               </div>
               <div className="col-md-3 col-md-offset-1 contact-info">
