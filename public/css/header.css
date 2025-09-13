@@ -67,10 +67,14 @@ header .intro-text {
 
 
 @media (max-width: 640px) {  
+  #header{
+    width: 100%;
+  }
   .intro {
     min-height: 100vh; /* ocupa só a altura da tela */
     padding-top: 30px;
-    background-size: cover;    
+    background-size: cover;   
+    width: 100%; 
   }
   .banner {
     width: 100%;
