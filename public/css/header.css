@@ -64,6 +64,18 @@ header .intro-text {
   align-items: center;   /* força centralização vertical */
 }
 
+  .intro {
+    min-height: 100vh; /* ocupa só a altura da tela */
+    padding-top: 30px;
+    background-size: cover;   
+    width: 100%; 
+  }
+  .banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Mantém a proporção da imagem */
+  }
+
 
 
 @media (max-width: 640px) {  

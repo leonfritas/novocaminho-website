@@ -11,7 +11,7 @@ export const Treatment = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4 col-sm-6">
+                <div key={`${d.name}-${i}`} className="col-lg-4 col-md-4 col-sm-12">
                   <div className="treatment-card">
                     <div className="treatment-image-wrapper">
                       <div className="treatment-image">
