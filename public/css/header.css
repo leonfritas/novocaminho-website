@@ -66,7 +66,7 @@ header .intro-text {
 
   .intro {
     min-height: 100vh; /* ocupa só a altura da tela */
-    padding-top: 30px;
+    padding-top: 15px;
     background-size: cover;   
     width: 100%; 
   }
