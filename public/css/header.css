@@ -73,8 +73,8 @@ header .intro-text {
     background-size: cover;    
   }
   .banner {
-  width: 101%;
-  height: auto;
-  object-fit: cover; /* Mantém a proporção da imagem */
-}
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Mantém a proporção da imagem */
+  }
 }
