@@ -59,73 +59,72 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Avaliação e Diagnóstico",
-      "text": "Cada paciente passa por uma análise detalhada para definir o tratamento mais adequado às suas necessidades.",
-      "image":"img/services/service1.jpg"
+      "name": "Terapia Familiar",
+      "text": "Encontros terapêuticos voltados para fortalecer vínculos, melhorar a comunicação e promover equilíbrio no ambiente familiar.",
+      "image": "img/services/service1.jpg"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Desintoxicação Supervisionada",
-      "text": "Processo seguro de desintoxicação, acompanhado por equipe médica e psicológica.",
-      "image":"img/services/service2.jpg"
+      "name": "Remoção",
+      "text": "Atendimento especializado para transporte seguro e humanizado em situações que exigem acolhimento imediato.",
+      "image": "img/services/service2.jpg"
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Internação e Acolhimento Humanizado",
-      "text": "Ambiente seguro, estruturado e acolhedor para recuperação intensiva.",
-      "image":"img/services/service3.jpg"
+      "name": "Avaliação Psicológica",
+      "text": "Processo estruturado de entrevistas e testes para identificar necessidades e orientar o tratamento adequado.",
+      "image": "img/services/service3.jpg"
     },
     {
       "icon": "fa fa-language",
-      "name": "Terapia Psicológica e Grupos de Apoio",
-      "text": "Atendimentos individuais e em grupo para fortalecer a saúde emocional e prevenir recaídas.",
-      "image":"img/services/service4.jpg"
+      "name": "Internação Involuntária",
+      "text": "Procedimento realizado de forma legal e ética, com suporte completo para a segurança e recuperação do paciente.",
+      "image": "img/services/service4.jpg"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Acompanhamento Familiar",
-      "text": "Orientação e suporte contínuo às famílias, ajudando-as a lidar com o processo de recuperação.",
-      "image":"img/services/service5.jpg"
+      "name": "Pós Tratamento",
+      "text": "Acompanhamento contínuo após a alta, auxiliando na reintegração social e na prevenção de recaídas.",
+      "image": "img/services/service5.jpg"
     },
     {
       "icon": "fa fa-plane",
-      "name": "Reinserção Social e Pós-Tratamento",
-      "text": "Programas de acompanhamento após a alta, visando a adaptação à vida cotidiana com equilíbrio e autonomia.",
-      "image":"img/services/service6.jpg"
+      "name": "Grupo Familiar",
+      "text": "Espaço de apoio e orientação para familiares, promovendo compreensão e cooperação no processo terapêutico.",
+      "image": "img/services/service6.jpg"
     }
   ],
   "Treatment": [
     {
       "img": "img/treatment/tratamento1.jpg",
-      "text": "É o pilar central da maioria dos tratamentos. Envolve sessões com um psicólogo ou terapeuta para identificar os gatilhos do vício, modificar padrões de pensamento distorcidos e desenvolver estratégias para mudar o comportamento.",
-      "name": "Psicoterapia Especializada"
+      "text": "Consulta realizada por médico especializado, com foco em diagnóstico, prescrição de medicamentos e acompanhamento clínico contínuo da saúde mental do paciente.",
+      "name": "Atendimento Psiquiátrico"
     },
     {
       "img": "img/treatment/tratamento2.jpg",
-      "text": "Utiliza medicamentos prescritos por um médico psiquiatra para auxiliar no controle dos sintomas físicos e psicológicos do vício.",
-      "name": "Tratamento Farmacológico"
+      "text": "Intervenções direcionadas para prevenção e tratamento da dependência em jogos, com suporte terapêutico e estratégias de controle do comportamento.",
+      "name": "Jogos"
     },
     {
       "img": "img/treatment/tratamento3.jpg",
-      "text": "São reuniões, presenciais ou online, onde pessoas que compartilham o mesmo problema se encontram para oferecer suporte emocional, compartilhar experiências e estratégias de recuperação, baseadas em um programa estruturado.",
-      "name": "Grupos de Apoio Mútuo"
-    },
-        {
-      "img": "img/treatment/tratamento1.jpg",
-      "text": "É o pilar central da maioria dos tratamentos. Envolve sessões com um psicólogo ou terapeuta para identificar os gatilhos do vício, modificar padrões de pensamento distorcidos e desenvolver estratégias para mudar o comportamento.",
-      "name": "Psicoterapia Especializada"
+      "text": "Sessões individuais entre paciente e terapeuta, voltadas para autoconhecimento, enfrentamento de dificuldades pessoais e fortalecimento emocional.",
+      "name": "Atendimento Individual"
     },
     {
-      "img": "img/treatment/tratamento2.jpg",
-      "text": "Utiliza medicamentos prescritos por um médico psiquiatra para auxiliar no controle dos sintomas físicos e psicológicos do vício.",
-      "name": "Tratamento Farmacológico"
+      "img": "img/treatment/tratamento4.jpg",
+      "text": "Exame rápido e confiável que detecta a presença de substâncias químicas no organismo, auxiliando no diagnóstico e direcionamento do tratamento.",
+      "name": "Teste toxicológico rápido"
     },
     {
-      "img": "img/treatment/tratamento3.jpg",
-      "text": "São reuniões, presenciais ou online, onde pessoas que compartilham o mesmo problema se encontram para oferecer suporte emocional, compartilhar experiências e estratégias de recuperação, baseadas em um programa estruturado.",
-      "name": "Grupos de Apoio Mútuo"
+      "img": "img/treatment/tratamento5.jpg",
+      "text": "Acompanhamento periódico sem necessidade de internação, permitindo que o paciente mantenha sua rotina enquanto recebe cuidados médicos e psicológicos.",
+      "name": "Tratamento Ambulatorial"
+    },
+    {
+      "img": "img/treatment/tratamento6.jpg",
+      "text": "Atendimento especializado voltado para mulheres, com foco em acolhimento, avaliação psicológica e estratégias de tratamento personalizadas.",
+      "name": "Tratamento feminino (avaliação psicológica)"
     }
-    
   ],
   "Faq": [
   {
