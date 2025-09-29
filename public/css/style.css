@@ -231,17 +231,15 @@ a:focus,
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  background-color: #25D366; /* verde WhatsApp */
-  color: white; /* cor do ícone */
+  right: 20px;  
+  /* color: white; cor do ícone */
   border-radius: 50%;
   padding: 10px;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  /* box-shadow: 0 4px 6px rgba(0,0,0,0.2); */
   display: flex;
   align-items: center;
   justify-content: center;
-
   text-decoration: none; /* remove sublinhado */
   transition: none;      /* remove qualquer transição */
   cursor: pointer;       /* mantém o cursor de clique */

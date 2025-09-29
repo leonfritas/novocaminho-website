@@ -34,7 +34,7 @@ const App = () => {
       <Gallery data={landingPageData.Gallery} />
       <Faq data={landingPageData.Faq} />
       <Contact data={landingPageData.Contact} />
-      <WhatsAppButton />
+      <WhatsAppButton data={landingPageData.Wpp} />
       
     </div>
   );
