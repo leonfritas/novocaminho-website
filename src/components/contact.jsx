@@ -122,7 +122,7 @@ export const Contact = (props) => {
                     <span>
                       <i className="fa fa-map-marker"></i> Endereço
                     </span>
-                    {props.data ? "Rua Marcílio Dias nº 2229 Conjunto Tocantins - Centro" : "loading"}
+                    {props.data ? "Avenida Constantino Nery - 2229" : "loading"}
                   </p>
                 </div>
                 <div className="contact-item">
@@ -130,7 +130,7 @@ export const Contact = (props) => {
                     <span>
                       <i className="fa fa-phone"></i> Telefone
                     </span>{" "}
-                    {props.data ? "(92) 98409-2632" : "loading"}
+                    {props.data ? "+55 92 8493-8549" : "loading"}
                   </p>
                 </div>
                 <div className="contact-item">
@@ -156,7 +156,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
+                    <a href={props.data ? props.data.instagram : "/"}>
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
