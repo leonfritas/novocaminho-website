@@ -65,11 +65,7 @@ export const Gallery = (props) => {
                   <motion.div
                     key={`${d.title}-${i}`}
                     className="col-sm-6 col-md-4 col-lg-4 portfolio-card"
-                    variants={itemVariants}
-                    whileHover={{ 
-                      scale: 1.05,
-                      transition: { duration: 0.3 }
-                    }}
+                    variants={itemVariants}      
                     whileTap={{ scale: 0.95 }}
                   >
                     <Image
