@@ -21,38 +21,38 @@
   "Gallery": [
     {
       "title": "Ver",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg",
+      "largeImage": "img/portfolio/g-01-large-g.jpg",
+      "smallImage": "img/portfolio/g-01-small-g.jpg",
       "text": "Em nosso centro terapêutico, cada paciente é recebido com respeito, empatia e cuidado. Acreditamos que a recuperação começa quando o indivíduo se sente ouvido e acolhido. Aqui, cada passo é dado com apoio e propósito."
     },
     {
       "title": "Ver",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg",
+      "largeImage": "img/portfolio/g-02-large-g.jpg",
+      "smallImage": "img/portfolio/g-02-small-g.jpg",
       "text": "Nossa clínica oferece um ambiente seguro, confortável e projetado para promover o bem-estar. Quartos amplos, áreas verdes e espaços de convivência garantem tranquilidade durante o processo de recuperação."
     },
     {
       "title": "Ver",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg",
+      "largeImage": "img/portfolio/g-03-large-g.jpg",
+      "smallImage": "img/portfolio/g-03-small-g.jpg",
       "text": "Cada paciente possui uma história única — por isso, nossos programas de tratamento são individualizados. Com acompanhamento psicológico, médico e terapêutico, buscamos compreender e tratar as causas profundas da dependência."
     },
     {
       "title": "Ver",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg",
+      "largeImage": "img/portfolio/g-04-large-g.jpg",
+      "smallImage": "img/portfolio/g-04-small-g.jpg",
       "text": "Sabemos que a família tem um papel essencial na recuperação. Por isso, oferecemos acompanhamento e orientação para familiares, fortalecendo os laços e reconstruindo a confiança."
     },
     {
       "title": "Ver",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg",
+      "largeImage": "img/portfolio/g-05-large-g.jpg",
+      "smallImage": "img/portfolio/g-05-small-g.jpg",
       "text": "A dependência química não define quem você é. Nosso propósito é ajudar cada pessoa a reencontrar sua identidade, restaurar sonhos e conquistar uma nova vida livre das drogas."
     },
     {
       "title": "Ver",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg",
+      "largeImage": "img/portfolio/g-06-large-g.jpg",
+      "smallImage": "img/portfolio/g-06-small-g.jpg",
       "text": "Trabalhamos com ética, respeito e sigilo absoluto. Nossa missão é guiar cada paciente com segurança e esperança até o completo restabelecimento físico, mental e espiritual."
     }
   ],
@@ -145,7 +145,7 @@
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "email": "vander.vo@homail.com",
     "facebook": "fb.com",
     "instagram": "https://www.instagram.com/van_v.o?igsh=eGZ5NzF6ZWV2ZmQ1",
     "whatsapp": "https://wa.me/5592984092632?text=Ol%C3%A1!%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os."
