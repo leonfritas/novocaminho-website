@@ -21,9 +21,9 @@ export const Treatment = (props) => {
                           smallImage={d.img}
                         />
                       </div>
-                      <div className="treatment-overlay">
+                      {/* <div className="treatment-overlay">
                         <button className="treatment-button">Saiba mais</button>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="treatment-content">
                       <h3>{d.name}</h3>

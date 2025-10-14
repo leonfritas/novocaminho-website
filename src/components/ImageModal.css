@@ -1,0 +1,333 @@
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+/* Modal Content */
+.modal-content {
+  background: white;
+  border-radius: 20px;
+  max-width: 85vw;
+  max-height: 85vh;
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+  border: none;
+}
+
+/* Close Button */
+.modal-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.modal-close:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+}
+
+/* Slider Container */
+.modal-slider-container {
+  height: 100%;
+}
+
+.modal-slide {
+  display: flex !important;
+  flex-direction: column;
+  min-height: 70vh;
+  max-height: 80vh;
+}
+
+/* Image Container */
+.modal-image-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  padding: 0;
+  min-height: 450px;
+  max-height: 550px;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background: white;
+  padding: 10px;
+  display: block;
+}
+
+.modal-image:hover {
+  /* transform: scale(1.02); */
+}
+
+/* Text Container */
+.modal-text {
+  padding: 30px;
+  background: white;
+  border-top: 1px solid #e9ecef;
+  flex: 1;
+  overflow-y: auto;
+  max-height: 350px;
+  border-radius: 0 0 20px 20px;
+}
+
+.modal-text h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.modal-text p {
+  font-size: 19px;
+  line-height: 1.8;
+  color: #6c757d;
+  margin: 0;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Custom Slick Styles */
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+.slick-dots li.slick-active button {
+  background: #007bff;
+}
+
+.custom-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Navigation Arrows */
+.slick-next-custom,
+.slick-prev-custom {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.slick-next-custom:hover,
+.slick-prev-custom:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.slick-next-custom {
+  right: 25px;
+}
+
+.slick-prev-custom {
+  left: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modal-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  .modal-content {
+    width: 95vw;
+    height: 85vh;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-slide {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+  }
+  
+  .modal-image-container {
+    padding: 15px;
+    height: 50%;
+    min-height: 250px;
+    max-height: 350px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+  }
+  
+  .modal-text {
+    padding: 15px;
+    height: 50%;
+    overflow-y: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .modal-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-text p {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 5px 0;
+  }
+  
+  .slick-next-custom,
+  .slick-prev-custom {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  .slick-next-custom {
+    right: 10px;
+  }
+  
+  .slick-prev-custom {
+    left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-overlay {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    width: 98vw;
+    height: 90vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-slide {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+  }
+  
+  .modal-image-container {
+    height: 45%;
+    min-height: 200px;
+    max-height: 280px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+  }
+  
+  .modal-text {
+    padding: 12px;
+    height: 55%;
+    overflow-y: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .modal-text h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .modal-text p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 3px 0;
+  }
+  
+  .slick-next-custom,
+  .slick-prev-custom {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+  }
+  
+  .slick-next-custom {
+    right: 5px;
+  }
+  
+  .slick-prev-custom {
+    left: 5px;
+  }
+}

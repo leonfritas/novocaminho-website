@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { FaPlus, FaMinus, FaQuestionCircle } from "react-icons/fa";
+import "./Faq.css";
 
 export const Faq = ({ data }) => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -7,46 +10,113 @@ export const Faq = ({ data }) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeOut"
+      }
+    }
+  };
+
+  const iconVariants = {
+    closed: { rotate: 0 },
+    open: { rotate: 180 }
+  };
+
   return (
-    <div id="faq" className="py-12 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <div id="faq" className="faq-section">
+      <div className="container">
         {/* Título */}
-        <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-gray-800">Perguntas Frequentes</h2>
-          <p className="text-gray-600 mt-2">
-            Confira as respostas para as dúvidas mais comuns.
+        <motion.div 
+          className="faq-title-container"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <div className="faq-icon">
+            <FaQuestionCircle />
+          </div>
+          <h2>Perguntas Frequentes</h2>
+          <p>
+            Encontre respostas para as dúvidas mais comuns sobre nossos serviços e tratamentos.
           </p>
-        </div>
+        </motion.div>
 
         {/* Lista de perguntas */}
-        <div className="max-w-3xl mx-auto space-y-4">
+        <motion.div 
+          className="faq-container"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+        >
           {data && data.length > 0 ? (
             data.map((item, i) => (
-              <div
+              <motion.div
                 key={i}
-                className="bg-white rounded-xl shadow-md p-4 cursor-pointer hover:shadow-lg transition"
+                className={`faq-item ${openIndex === i ? 'faq-item-open' : ''}`}
+                variants={itemVariants}
                 onClick={() => toggleFaq(i)}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
               >
                 {/* Pergunta */}
-                <div className="flex justify-between items-center">
-                  <h3 className="text-lg font-semibold text-gray-800 faqbutton">
-                    {item.question}
-                  </h3>
-                  {/* <span className="text-green-600 text-2xl">
-                    {openIndex === i ? "−" : "+"}
-                  </span> */}
+                <div className="faq-question">
+                  <h3>{item.question}</h3>
+                  <motion.div
+                    className="faq-icon-wrapper"
+                    variants={iconVariants}
+                    animate={openIndex === i ? "open" : "closed"}
+                    transition={{ duration: 0.3 }}
+                  >
+                    {openIndex === i ? <FaMinus /> : <FaPlus />}
+                  </motion.div>
                 </div>
 
                 {/* Resposta */}
-                {openIndex === i && (
-                  <p className="text-gray-600 mt-3">{item.answer}</p>
-                )}
-              </div>
+                <AnimatePresence>
+                  {openIndex === i && (
+                    <motion.div
+                      className="faq-answer"
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                    >
+                      <div className="faq-answer-content">
+                        <p>{item.answer}</p>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
             ))
           ) : (
-            <p className="text-center text-gray-500">Nenhuma pergunta encontrada.</p>
+            <motion.div 
+              className="faq-empty"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+            >
+              <p>Nenhuma pergunta encontrada.</p>
+            </motion.div>
           )}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
